@@ -99,11 +99,6 @@ if __name__ == "__main__":
 
             os.startfile(os.path.join(music_dir, song[5]))
 
-        # elif 'stop music'in query:
-        #     music_dir = "D://songs"
-        #     song = os.listdir(music_dir)
-        #     print(song)
-        #     os.stopfile(os.path.remove(music_dir, song[0]))
 
         elif 'the time' in query:
             strTime = datetime.datetime.now().strftime("%H:%M:%S")
