@@ -1,12 +1,16 @@
 Modules
 
 pyttsx3
+
 import pyttsx3 as py3
+
 
 This module will help jarvis to speak
 
 pip install pyttsx3
+
 SpeechRecognition
+
 import speech_recognition as sr
 
 This module will help jarvis to listen our voice
